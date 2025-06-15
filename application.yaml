@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: demo-app
-  namespace: tanuj-argocd
+  namespace: argocd
 spec:
   project: default
   source:
